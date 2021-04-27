@@ -1,0 +1,41 @@
+.CharacterCreation {
+  display: flex;
+  flex-direction: column;
+}
+
+.CharacterCreation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CharacterCreation-form label {
+  margin: 1em 0;
+}
+
+.CharacterCreation-form label small {
+  margin: 0 0.5em;
+  flex: 1;
+  display: inline-block;
+  width: 75px;
+}
+
+.CharacterCreation-form input {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #282c34;
+  color: #edf0f4;
+  border: 1px solid #edf0f4;
+  padding: 5px;
+  text-align: center;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}

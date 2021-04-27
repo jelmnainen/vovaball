@@ -1,0 +1,66 @@
+
+.Pitch {
+  display: flex;
+  flex: 5;
+}
+
+.Pitch-square {
+  border-right: 1px solid #595959;
+  border-bottom: 1px solid #595959;
+  width: 20px;
+  height: 20px;
+}
+
+.pitch-column-0 {
+  border-left: 1px solid #b0b0b0;
+}
+
+.pitch-column-49 {
+  border-right: 1px solid #b0b0b0;
+}
+
+.pitch-row-0 {
+  border-top: 1px solid #b0b0b0;
+}
+
+.pitch-row-29 {
+  border-bottom: 1px solid #b0b0b0;
+}
+
+.pitch-column-0 > .pitch-row-12,
+.pitch-column-0 > .pitch-row-13,
+.pitch-column-0 > .pitch-row-14,
+.pitch-column-0 > .pitch-row-15,
+.pitch-column-0 > .pitch-row-11 {
+  border-left: 4px solid #fff;
+  margin-right: -4px;
+}
+
+.pitch-column-48 > .pitch-row-12,
+.pitch-column-48 > .pitch-row-13,
+.pitch-column-48 > .pitch-row-14,
+.pitch-column-48 > .pitch-row-15,
+.pitch-column-48 > .pitch-row-11 {
+  border-right: 4px solid #fff;
+  margin-left: -4px;
+}
+
+.Pitch-column:nth-child(2n+1) {
+    background-color: #6ba84f;
+}
+
+.Pitch-column:nth-child(2n) {
+    background-color: #6d9b58;
+}
+
+.pitch-square-opponent {
+  background-color: red;
+}
+
+.pitch-square-opponent-goalie {
+  background-color: red;
+}
+
+.pitch-square-vova {
+  background-color: orange;
+}

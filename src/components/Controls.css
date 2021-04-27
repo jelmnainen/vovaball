@@ -1,0 +1,17 @@
+.Controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex: 1;
+}
+
+.movement {
+  display: flex;
+  flex-direction: column;
+}
+
+.movement-middle {
+  display: flex;
+  justify-content: space-around;
+}
